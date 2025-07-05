@@ -92,6 +92,36 @@
             bindings = <&kp EQUAL>;
             key-positions = <28 29>;
         };
+
+        combo_play {
+            bindings = <&kp C_PLAY_PAUSE>;
+            key-positions = <36 17>;
+        };
+
+        combo_next {
+            bindings = <&kp C_NEXT>;
+            key-positions = <36 18>;
+        };
+
+        combo_prev {
+            bindings = <&kp LC(C_PREVIOUS)>;
+            key-positions = <36 16>;
+        };
+
+        combo_volup {
+            bindings = <&kp C_VOLUME_UP>;
+            key-positions = <33 13>;
+        };
+
+        combo_mute {
+            bindings = <&kp C_MUTE>;
+            key-positions = <33 12>;
+        };
+
+        combo_voldown {
+            bindings = <&kp C_VOLUME_DOWN>;
+            key-positions = <33 11>;
+        };
     };
 
     macros {
