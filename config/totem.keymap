@@ -37,6 +37,16 @@
             key-positions = <1 2>;
             bindings = <&kp TAB>;
         };
+
+        combo_caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <11 12>;
+        };
+
+        combo_tilde {
+            bindings = <&kp GRAVE>;
+            key-positions = <22 23>;
+        };
     };
 
     macros {
