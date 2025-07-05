@@ -111,10 +111,10 @@
 
         layer_1 {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans        &trans     &trans
-        &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans        &trans     &trans  &trans
-                        &trans  &trans  &trans    &trans    &trans    &trans
+        &trans  &trans  &trans  &trans        &kp LC(UP)       &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)    &kp LA(RIGHT)  &trans
+        &trans  &trans  &trans  &trans        &kp LC(DOWN)     &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT      &trans
+&trans  &trans  &trans  &trans  &trans        &trans           &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)    &kp LG(RIGHT)  &trans  &trans
+                        &trans  &kp LC(LEFT)  &kp LC(RIGHT)    &trans        &trans        &trans
             >;
         };
 
@@ -138,10 +138,10 @@
 
         layer_4 {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &kp N1        &kp N2      &kp N3         &kp N4        &kp N5           &kp N6         &kp N7        &kp N8        &kp N9        &kp N0
+        &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)
+&trans  &trans        &trans      &trans         &trans        &trans           &trans         &trans        &trans        &trans        &trans        &trans
+                                  &trans         &trans        &trans           &trans         &trans        &trans
             >;
         };
     };
